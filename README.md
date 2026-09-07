@@ -1,596 +1,225 @@
 <p align="center">
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    <img src="Images/tcqx-toolsV2-Banner.png" alt="tcqx-toolsV2-Banner" width="9999">
-  </a>
+  <img src="Images/tcqx-toolsV2-Banner.png" alt="tcqx-toolsV2-Banner" width="9999">
 </p>
 
 <h1 align="center">
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    <img src="Images/tcqx-toolsV2-Logo.png" alt="tcqx-toolsV2-Logo" width="27">
-  </a>
+  <img src="Images/tcqx-toolsV2-Logo.png" alt="tcqx-toolsV2-Logo" width="27">
   tcqx-toolsV2
 </h1>
 
 <p align="center">
-  <b>Multifunction Pentesting • OSINT • Utilities Toolkit</b>
-</p>
-
-<p align="center">
-  tcqx-toolsV2 is a multifunction tool dedicated to authorized pentesting,
-  OSINT and utilities. The project is open source and designed to centralize
-  multiple security, reconnaissance and information-gathering features into
-  a single configurable platform.
-</p>
-
-<p align="center">
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    <img src="https://img.shields.io/badge/Version-v1.0%20Beta-red?style=for-the-badge" alt="Version">
-  </a>
-  <a href="https://github.com/tcqx/tcqx-toolsV2/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
-  </a>
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    <img src="https://img.shields.io/github/stars/tcqx/tcqx-toolsV2?style=for-the-badge" alt="Stars">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    📦 Repository
-  </a>
-  &nbsp; • &nbsp;
-  <a href="https://github.com/tcqx">
-    👤 GitHub
-  </a>
-  &nbsp; • &nbsp;
-  <a href="https://guns.lol/tcqx">
-    🌐 Guns.lol
-  </a>
+  tcqx-toolsV2 is a multifunction automation tool dedicated to pentesting and OSINT. The project is open source and designed to centralize multiple security, reconnaissance and information-gathering features into a single configurable platform.
 </p>
 
 <h2>⚠️ Disclaimer:</h2>
-
 <p>
-  This tool is intended exclusively for educational, authorized and lawful
-  purposes. Only use the features against systems, websites, accounts or data
-  for which you have explicit permission.
-</p>
-
-<p>
-  Any malicious, illegal or unauthorized use of this software is strictly
-  prohibited. The author is not responsible for damage, abuse or misuse
-  resulting from this project.
+  This version is intended exclusively for educational and lawful use. Any malicious or unauthorized use is strictly prohibited. Only use this tool against systems, websites, accounts or data for which you have explicit permission. The author is not responsible for any misuse of this software.
 </p>
 
 <h2>📝 Description:</h2>
 
 <ul>
   <li>⚙️ Compatible with Windows and Linux.</li>
-  <li>🧠 Multifunction security and reconnaissance toolkit.</li>
-  <li>🔎 Designed for authorized pentesting and OSINT.</li>
-  <li>🛠️ Includes scanning, discovery and analysis utilities.</li>
-  <li>💻 Supports command-line usage.</li>
-  <li>📄 Supports optional JSON output for several tools.</li>
-  <li>⚡ Designed to centralize multiple utilities into one platform.</li>
+  <li>🧠 Legal, advanced and optimized version.</li>
+  <li>🔎 Tool oriented toward authorized pentesting and OSINT.</li>
+  <li>🛠️ Includes multiple scanning, reconnaissance and analysis utilities.</li>
+  <li>📄 Supports optional JSON output for several features.</li>
+  <li>💻 Supports CLI mode and interactive interface.</li>
 </ul>
 
 <h2>📸 Preview:</h2>
 
 <p align="center">
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    <img src="Images/tcqx-toolsV2.png" alt="tcqx-toolsV2 Preview" width="9999">
-  </a>
-</p>
-
-<h2>🔗 Quick Links:</h2>
-
-<p align="center">
-
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub Repository">
-  </a>
-
-  <a href="https://github.com/tcqx">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub Profile">
-  </a>
-
-  <a href="https://guns.lol/tcqx">
-    <img src="https://img.shields.io/badge/Guns.lol-Profile-red?style=for-the-badge" alt="Guns.lol">
-  </a>
-
-  <a href="https://www.python.org/downloads/">
-    <img src="https://img.shields.io/badge/Python-Download-blue?style=for-the-badge&logo=python" alt="Python Download">
-  </a>
-
-  <a href="https://git-scm.com/install/windows">
-    <img src="https://img.shields.io/badge/Git-Download-orange?style=for-the-badge&logo=git" alt="Git Download">
-  </a>
-
+  <img src="Images/tcqx-toolsV2.png" alt="tcqx-toolsV2" width="9999">
 </p>
 
 <h2>⚙️ Installation:</h2>
 
 <ol>
+  <li>Install the latest version of Python (3.14):</li>
+  - Windows:
+  <pre><a href="https://www.python.org/downloads/">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
+  - Linux:
+  <pre>sudo apt install python3 -y</pre>
 
-  <li>
-    <b>Install Python 3.14:</b>
+  <li>Install the latest version of Git:</li>
+  - Windows:
+  <pre><a href="https://git-scm.com/install/windows">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
+  - Linux:
+  <pre>sudo apt install git -y</pre>
 
-```
-<br><br>
+  <li>Clone the repository:</li>
+  <pre>git clone https://github.com/tcqx/tcqx-toolsV2.git</pre>
 
-<b>Windows:</b>
+  <li>Enter the project folder:</li>
+  <pre>cd tcqx-toolsV2</pre>
 
-<pre><a href="https://www.python.org/downloads/">Download Python</a>
-```
+  <li>Launch the setup:</li>
+  - Windows:
+  <pre>python setup.py</pre>
+  - Linux:
+  <pre>python3 setup.py</pre>
 
-Make sure the <b>"Add Python to PATH"</b> option is enabled during installation.</pre>
-
-```
-<b>Linux:</b>
-
-<pre>sudo apt install python3 -y</pre>
-```
-
-  </li>
-
-  <br>
-
-  <li>
-    <b>Install Git:</b>
-
-```
-<br><br>
-
-<b>Windows:</b>
-
-<pre><a href="https://git-scm.com/install/windows">Download Git</a>
-```
-
-Make sure Git is added to PATH during installation.</pre>
-
-```
-<b>Linux:</b>
-
-<pre>sudo apt install git -y</pre>
-```
-
-  </li>
-
-  <br>
-
-  <li>
-    <b>Clone the repository:</b>
-
-```
-<pre>git clone https://github.com/tcqx/tcqx-toolsV2.git</pre>
-```
-
-  </li>
-
-  <br>
-
-  <li>
-    <b>Enter the project folder:</b>
-
-```
-<pre>cd tcqx-toolsV2</pre>
-```
-
-  </li>
-
-  <br>
-
-  <li>
-    <b>Launch the setup:</b>
-
-```
-<br><br>
-
-<b>Windows:</b>
-
-<pre>python setup.py</pre>
-
-<b>Linux:</b>
-
-<pre>python3 setup.py</pre>
-```
-
-  </li>
-
-  <br>
-
-  <li>
-    <b>Launch tcqx-toolsV2:</b>
-
-```
-<br><br>
-
-<b>Windows:</b>
-
-<pre>python tcqxtools.py</pre>
-
-<b>Linux:</b>
-
-<pre>python3 tcqxtools.py</pre>
-```
-
-  </li>
-
+  <li>Launch the tool:</li>
+  - Windows:
+  <pre>python tcqxtools.py</pre>
+  - Linux:
+  <pre>python3 tcqxtools.py</pre>
 </ol>
 
 <h2>🔄 Update:</h2>
 
 <ol>
+  <li>Enter the project folder:</li>
+  <pre>cd tcqx-toolsV2</pre>
 
-  <li>
-    <b>Enter the project folder:</b>
-
-```
-<pre>cd tcqx-toolsV2</pre>
-```
-
-  </li>
-
-  <br>
-
-  <li>
-    <b>Pull the latest version:</b>
-
-```
-<pre>git pull</pre>
-```
-
-  </li>
-
+  <li>Update launch:</li>
+  <pre>git pull</pre>
 </ol>
 
 <h2>🚀 Features:</h2>
 
-<pre>
+```
 Tools:
-
   --help            / -h  : Shows all tools options.
   --version         / -v  : Displays the version and information of the tool.
   --settings-update / -su : Update the tools settings.
-  --mode            / -m  : Mode: decorated / interface
-  --status          / -s  : Status: enable / disable
-
+  * --mode          / -m  : Mode: decorated / interface
+  * --status        / -s  : Status: enable / disable
 
 Pentesting:
-
-  --advanced-scanner      / -as  : Advanced scanning performing all scans.
-                                  (website, domain, IP, server)
-
-    --target              / -t   : Service target:
-                                  &lt;URL&gt; / &lt;domain&gt; / &lt;IP[:port]&gt; / &lt;localhost[:port]&gt;
-
+  --advanced-scanner      / -as  : Advanced scanning performing all scans. (website, domain, IP, server)
+  * --target              / -t   : Service target: <URL> / <domain> / <IP[:port]> / <localhost[:port]>
     --output              / -o   : Creating additional JSON output.
+    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds: <timeout>
+    --socket-timeout      / -ST  : Set the maximum socket timeout in seconds: <timeout>
+    --http-proxy          / -HP  : Set an HTTP proxy: <proxy:port>
+    --socket-proxy        / -SP  : Set a socket proxy: <proxy:port>
+    --useragent           / -u   : Set a user-agent: random / <useragent>
+    --cookie              / -c   : Set a cookie: <cookie>
 
-    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds:
-                                  &lt;timeout&gt;
-
-    --socket-timeout      / -ST  : Set the maximum socket timeout in seconds:
-                                  &lt;timeout&gt;
-
-    --http-proxy          / -HP  : Set an HTTP proxy:
-                                  &lt;proxy:port&gt;
-
-    --socket-proxy        / -SP  : Set a socket proxy:
-                                  &lt;proxy:port&gt;
-
-    --useragent           / -u   : Set a user-agent:
-                                  random / &lt;useragent&gt;
-
-    --cookie              / -c   : Set a cookie:
-                                  &lt;cookie&gt;
-
-
-  --vulnerability-scanner / -vs  : Scan vulnerabilities of a website.
-
-    --target              / -t   : Website target:
-                                  &lt;URL&gt; / &lt;domain&gt; / &lt;IP:port&gt; / &lt;localhost:port&gt;
-
+  --vulnerability-scanner / -vs  : Scan all vulnerabilities of a website.
+  * --target              / -t   : Website target: <URL> / <domain> / <IP:port> / <localhost:port>
     --output              / -o   : Creating additional JSON output.
-
-    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds:
-                                  &lt;timeout&gt;
-
-    --http-proxy          / -HP  : Set an HTTP proxy:
-                                  &lt;proxy:port&gt;
-
-    --useragent           / -u   : Set a user-agent:
-                                  random / &lt;useragent&gt;
-
-    --cookie              / -c   : Set a cookie:
-                                  &lt;cookie&gt;
-
+    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds: <timeout>
+    --http-proxy          / -HP  : Set an HTTP proxy: <proxy:port>
+    --useragent           / -u   : Set a user-agent: random / <useragent>
+    --cookie              / -c   : Set a cookie: <cookie>
 
   --port-scanner          / -ps  : Scan the ports of an IP.
-
-    --target              / -t   : IP target:
-                                  &lt;IP&gt;
-
-    --mode                / -m   : Scan mode:
-                                  single / multiple / range / default / all
-
-    --port                / -p   : Port(s):
-                                  single: &lt;port&gt;
-                                  multiple: &lt;port&gt;,&lt;port&gt;
-                                  range: &lt;port&gt;-&lt;port&gt;
-
-    --protocol-scan       / -PS  : Protocol(s):
-                                  TCP / UDP / TCP,UDP
-
+  * --target              / -t   : IP target: <IP>
+  * --mode                / -m   : Scan mode: single / multiple / range / default / all
+    --port                / -p   : Port(s): single: <port> / multiple: <port>,<port> / range: <port>-<port>
+    --protocol-scan       / -PS  : Protocol(s): TCP / UDP / TCP,UDP
     --output              / -o   : Creating additional JSON output.
+    --socket-timeout      / -ST  : Set the maximum socket timeout in seconds: <timeout>
+    --socket-proxy        / -SP  : Set a socket proxy: <proxy:port>
 
-    --socket-timeout      / -ST  : Set the maximum socket timeout:
-                                  &lt;timeout&gt;
-
-    --socket-proxy        / -SP  : Set a socket proxy:
-                                  &lt;proxy:port&gt;
-
-
-  --url-discovery-crawler / -udc : Scan all URLs of a website.
-
-    --target              / -t   : Website target:
-                                  &lt;URL&gt; / &lt;domain&gt; / &lt;IP:port&gt; / &lt;localhost:port&gt;
-
-    --mode                / -m   : Scan mode:
-                                  onlypage / allwebsite
-
+  --url-discovery-crawler / -udc : Scan all urls of a website.
+  * --target              / -t   : Website target: <URL> / <domain> / <IP:port> / <localhost:port>
+  * --mode                / -m   : Scan mode: onlypage / allwebsite
     --output              / -o   : Creating additional JSON output.
-
-    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds:
-                                  &lt;timeout&gt;
-
-    --http-proxy          / -HP  : Set an HTTP proxy:
-                                  &lt;proxy:port&gt;
-
-    --useragent           / -u   : Set a user-agent:
-                                  random / &lt;useragent&gt;
-
-    --cookie              / -c   : Set a cookie:
-                                  &lt;cookie&gt;
-
+    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds: <timeout>
+    --http-proxy          / -HP  : Set an HTTP proxy: <proxy:port>
+    --useragent           / -u   : Set a user-agent: random / <useragent>
+    --cookie              / -c   : Set a cookie: <cookie>
 
   --ip-pinger             / -ip  : Continuously ping an IP.
-
-    --target              / -t   : IP target:
-                                  &lt;IP&gt;
-
-    --mode                / -m   : Ping mode: ICMP / TCP
-
-    --bytes               / -b   : Set the number of bytes for an ICMP ping:
-                                  &lt;bytes&gt;
-
-    --port                / -p   : Set the port for a TCP ping:
-                                  &lt;port&gt;
-
-    --interval            / -i   : Set the interval between each ping:
-                                  &lt;interval&gt;
-
-    --socket-timeout      / -ST  : Set the maximum socket timeout:
-                                  &lt;timeout&gt;
-
-    --socket-proxy        / -SP  : Set a socket proxy:
-                                  &lt;proxy:port&gt;
-
+  * --target              / -t   : IP target: <IP>
+  * --mode                / -m   : Ping mode: ICMP / TCP
+    --bytes               / -b   : Set the number of bytes for an ICMP ping: <bytes>
+    --port                / -p   : Set the port for a TCP ping: <port>
+    --interval            / -i   : Set the interval between each ping in seconds: <interval>
+    --socket-timeout      / -ST  : Set the maximum socket timeout in seconds: <timeout>
+    --socket-proxy        / -SP  : Set a socket proxy: <proxy:port>
 
   --host-discovery        / -hd  : Determines which hosts are online.
-
-    --target              / -t   : CIDR target:
-                                  &lt;IP&gt;/&lt;CIDR prefix&gt;
-
-    --port                / -p   : Set the port for a TCP ping:
-                                  &lt;port&gt;
-
+  * --target              / -t   : CIDR target: <IP>/<CIDR prefix>
+    --port                / -p   : Set the port for a TCP ping: <port>
     --output              / -o   : Creating additional JSON output.
+    --tcp-icmp-timeout    / -TIT : Set the maximum TCP/ICMP timeout in seconds: <timeout>
+    --socket-proxy        / -SP  : Set a socket proxy: <proxy:port>
 
-    --tcp-icmp-timeout    / -TIT : Set the maximum TCP/ICMP timeout:
-                                  &lt;timeout&gt;
-
-    --socket-proxy        / -SP  : Set a socket proxy:
-                                  &lt;proxy:port&gt;
-
-
-OSINT:
-
-  --dorking-query-engine     / -dqe : Query builder for Google, Bing and DuckDuckGo
-                                      with advanced operators.
-
-    --engine                 / -e   : Search engine:
-                                      google / bing / duckduckgo
-
+Osint:
+  --dorking-query-engine     / -dqe : Query builder for Google, Bing and DuckDuckGo with advanced operators.
+  * --engine                 / -e   : Search engine: google / bing / duckduckgo
 
   --wallet-tracker           / -wt  : Track a crypto wallet's transactions with APIs.
-
-    --address                / -a   : Wallet target address:
-                                      &lt;address&gt;
-
+  * --address                / -a   : Wallet target address: <address>
     --output                 / -o   : Creating additional JSON output.
-
-    --http-timeout           / -HT  : Set the maximum HTTP timeout for the API:
-                                      &lt;timeout&gt;
-
-    --http-proxy             / -HP  : Set an HTTP proxy for the API:
-                                      &lt;proxy:port&gt;
-
-    --useragent              / -u   : Set a user-agent for the API:
-                                      random / &lt;useragent&gt;
-
+    --http-timeout           / -HT  : Set the maximum HTTP timeout for the API in seconds: <timeout>
+    --http-proxy             / -HP  : Set an HTTP proxy for the API: <proxy:port>
+    --useragent              / -u   : Set a user-agent for the API: random / <useragent>
 
   --username-tracker         / -ut  : Track a username across multiple platforms.
-
-    --target                 / -t   : Target username:
-                                      &lt;username&gt;
-
+  * --target                 / -t   : The target username: <username>
     --output                 / -o   : Creating additional JSON output.
-
-    --http-timeout           / -HT  : Set the maximum HTTP timeout:
-                                      &lt;timeout&gt;
-
-    --http-proxy             / -HP  : Set an HTTP proxy:
-                                      &lt;proxy:port&gt;
-
-    --useragent              / -u   : Set a user-agent:
-                                      random / &lt;useragent&gt;
-
+    --http-timeout           / -HT  : Set the maximum HTTP timeout in seconds: <timeout>
+    --http-proxy             / -HP  : Set an HTTP proxy: <proxy:port>
+    --useragent              / -u   : Set a user-agent: random / <useragent>
 
   --email-tracker            / -et  : Track an email registered on several platforms.
-
-    --email                  / -e   : Email target:
-                                      &lt;email&gt;
-
+  * --email                  / -e   : Email target: <email>
     --output                 / -o   : Creating additional JSON output.
-
-    --http-timeout           / -HT  : Set the maximum HTTP timeout:
-                                      &lt;timeout&gt;
-
-    --http-proxy             / -HP  : Set an HTTP proxy:
-                                      &lt;proxy:port&gt;
-
-    --useragent              / -u   : Set a user-agent:
-                                      random / &lt;useragent&gt;
-
+    --http-timeout           / -HT  : Set the maximum HTTP timeout in seconds: <timeout>
+    --http-proxy             / -HP  : Set an HTTP proxy: <proxy:port>
+    --useragent              / -u   : Set a user-agent: random / <useragent>
 
   --email-lookup             / -el  : Retrieve public data from an email.
-
-    --email                  / -e   : Email target:
-                                      &lt;email&gt;
-
+  * --email                  / -e   : Email target: <email>
     --output                 / -o   : Creating additional JSON output.
+    --socket-timeout         / -ST  : Set the maximum socket timeout in seconds: <timeout>
+    --socket-proxy           / -SP  : Set a socket proxy: <proxy:port>
 
-    --socket-timeout         / -ST  : Set the maximum socket timeout:
-                                      &lt;timeout&gt;
-
-    --socket-proxy           / -SP  : Set a socket proxy:
-                                      &lt;proxy:port&gt;
-
-
-  --ip-lookup                / -il  : Fetch public IP data using the ip-api.com API.
-
-    --ip                     / -i   : IP target:
-                                      &lt;IP&gt;
-
+  --ip-lookup                / -il  : Fetch public IP data using the "ip-api.com" API.
+  * --ip                     / -i   : IP target: <IP>
     --output                 / -o   : Creating additional JSON output.
-
-    --http-timeout           / -HT  : Set the maximum HTTP timeout:
-                                      &lt;timeout&gt;
-
-    --http-proxy             / -HP  : Set an HTTP proxy:
-                                      &lt;proxy:port&gt;
-
-    --useragent              / -u   : Set a user-agent:
-                                      random / &lt;useragent&gt;
-
+    --http-timeout           / -HT  : Set the maximum HTTP timeout for the API in seconds: <timeout>
+    --http-proxy             / -HP  : Set an HTTP proxy for the API: <proxy:port>
+    --useragent              / -u   : Set a user-agent for the API: random / <useragent>
 
   --phone-number-lookup      / -pnl : Retrieve public data from a phone number.
-
-    --phone                  / -p   : Phone number target:
-                                      &lt;number&gt;
-
+  * --phone                  / -p   : Phone number target: <number>
     --output                 / -o   : Creating additional JSON output.
 
-
-  --instagram-profile-lookup / -ipl : Retrieve public data from an Instagram username.
-
-    --target                 / -t   : Username target:
-                                      &lt;username&gt;
-
-    --sessionid              / -s   : Instagram session ID:
-                                      &lt;sessionid&gt;
-
+  --instagram-profile-lookup / -ipl : Retrieve public data from an instagram username.
+  * --target                 / -t   : Username target: <username>
+  * --sessionid              / -s   : Your instagram id session: <sessionid>
     --output                 / -o   : Creating additional JSON output.
-
-    --http-proxy             / -HP  : Set an HTTP proxy:
-                                      &lt;proxy:port&gt;
-
-    --useragent              / -u   : Set a user-agent:
-                                      random / &lt;useragent&gt;
-
+    --http-proxy             / -HP  : Set an HTTP proxy: <proxy:port>
+    --useragent              / -u   : Set a user-agent: random / <useragent>
 
 Utilities:
-
   --file-metadata-scanner / -fms : Scan all file metadata.
-
-    --path                / -p   : File path:
-                                  &lt;path&gt;
-
+  * --path                / -p   : The file path: <path>
     --output              / -o   : Creating additional JSON output.
 
-
   --file-metadata-deleter / -fmd : Remove all file metadata.
-
-    --path                / -p   : File path:
-                                  &lt;path&gt;
-
+  * --path                / -p   : The file path: <path>
 
   --website-cloner        / -wc  : Clone the entire web page.
-
-    --target              / -t   : Website target:
-                                  &lt;URL&gt; / &lt;domain&gt; / &lt;IP:port&gt; / &lt;localhost:port&gt;
-
-    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds:
-                                  &lt;timeout&gt;
-
-    --http-proxy           / -HP  : Set an HTTP proxy:
-                                  &lt;proxy:port&gt;
-
-    --useragent            / -u   : Set a user-agent:
-                                  random / &lt;useragent&gt;
-
-    --cookie              / -c   : Set a cookie:
-                                  &lt;cookie&gt;
-
+  * --target              / -t   : Website target: <URL> / <domain> / <IP:port> / <localhost:port>
+    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds: <timeout>
+    --http-proxy          / -HP  : Set an HTTP proxy: <proxy:port>
+    --useragent            / -u   : Set a user-agent: random / <useragent>
+    --cookie              / -c   : Set a cookie: <cookie>
 
 Notations:
-
   /  : Or
   [] : Optional
-  &lt;&gt; : Value
+  <> : Value
   *  : Required
-</pre>
+```
 
 <h2>👨‍💻 Credits:</h2>
 
 <ul>
-  <li>
-    Developed by:
-    <b>
-      <a href="https://github.com/tcqx">tcqx</a>
-    </b>
-  </li>
-
-  <li>
-    GitHub:
-    <a href="https://github.com/tcqx">github.com/tcqx</a>
-  </li>
-
-  <li>
-    Repository:
-    <a href="https://github.com/tcqx/tcqx-toolsV2">
-      github.com/tcqx/tcqx-toolsV2
-    </a>
-  </li>
-
-  <li>
-    GunsLol:
-    <a href="https://guns.lol/tcqx">
-      guns.lol/tcqx
-    </a>
-  </li>
-
-  <li>
-    License:
-    <a href="https://github.com/tcqx/tcqx-toolsV2/blob/main/LICENSE">
-      <b>MIT License</b>
-    </a>
-  </li>
-
-  <li>
-    Version:
-    <b>v1.0 Beta</b>
-  </li>
+  <li>Developed by: <b>tcqx</b></li>
+  <li>GitHub: <a href="https://github.com/tcqx">github.com/tcqx</a></li>
+  <li>Repository: <a href="https://github.com/tcqx/tcqx-toolsV2">github.com/tcqx/tcqx-toolsV2</a></li>
+  <li>GunsLol: <a href="https://guns.lol/tcqx">guns.lol/tcqx</a></li>
+  <li>License: <b>MIT License</b></li>
+  <li>Version: <b>v1.0 Beta</b></li>
 </ul>
 
 <h2>📜 License:</h2>
@@ -600,28 +229,4 @@ Notations:
   <a href="https://github.com/tcqx/tcqx-toolsV2/blob/main/LICENSE">
     <b>MIT License</b>
   </a>.
-</p>
-
-<h2>🔗 Project Links:</h2>
-
-<p align="center">
-  <a href="https://github.com/tcqx/tcqx-toolsV2">
-    📦 <b>Repository</b>
-  </a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://github.com/tcqx">
-    👤 <b>GitHub Profile</b>
-  </a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://guns.lol/tcqx">
-    🌐 <b>Guns.lol</b>
-  </a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://www.python.org/downloads/">
-    🐍 <b>Python</b>
-  </a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://git-scm.com/install/windows">
-    🔧 <b>Git</b>
-  </a>
 </p>
