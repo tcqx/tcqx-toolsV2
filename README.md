@@ -8,9 +8,10 @@
 </h1>
 
 <p align="center">
-  tcqx-toolsV2 is a multifunction tool dedicated to pentesting, OSINT and utilities.
-  The project is open source and designed to centralize multiple security and
-  information-gathering features into a single configurable platform.
+  tcqx-toolsV2 is a multifunction automation tool dedicated to pentesting,
+  OSINT and utilities. The project is open source and designed to centralize
+  multiple security, reconnaissance and information-gathering features into
+  a single configurable platform.
 </p>
 
 <p align="center">
@@ -20,26 +21,29 @@
 <h2>⚠️ Disclaimer:</h2>
 
 <p>
-  This tool is intended exclusively for educational, authorized and lawful purposes.
-  Only use the features against systems, websites, accounts or data for which you
-  have explicit permission. The author is not responsible for misuse of this software.
+  This version is intended exclusively for educational, authorized and lawful
+  use. Only use this software against systems, websites, accounts or data for
+  which you have explicit permission. Any malicious or unauthorized use is
+  strictly prohibited. The author is not responsible for any misuse of this
+  software.
 </p>
 
 <h2>📝 Description:</h2>
 
 <ul>
   <li>⚙️ Compatible with Windows and Linux.</li>
-  <li>🧠 Multifunction tool for authorized security testing and OSINT.</li>
-  <li>🔎 Includes pentesting, reconnaissance and information lookup features.</li>
-  <li>🛠️ Provides multiple scanning and analysis utilities.</li>
-  <li>💻 Supports command-line usage.</li>
+  <li>🧠 Legal, advanced and optimized security toolkit.</li>
+  <li>🔎 Tool oriented toward authorized pentesting and OSINT.</li>
+  <li>🛠️ Multiple scanning, reconnaissance and analysis utilities.</li>
+  <li>💻 Supports CLI mode and interactive usage.</li>
   <li>📄 Supports optional JSON output for several features.</li>
+  <li>🔧 Centralized configuration and customizable tool settings.</li>
 </ul>
 
 <h2>📸 Preview:</h2>
 
 <p align="center">
-  <img src="Images/tcqx-toolsV2.png" alt="tcqx-toolsV2 Preview" width="9999">
+  <img src="Images/tcqx-toolsV2.png" alt="tcqx-toolsV2" width="9999">
 </p>
 
 <h2>⚙️ Installation:</h2>
@@ -49,15 +53,18 @@
   <li>
     <b>Install the latest version of Python (3.14):</b>
 
-    <br><br>
+```
+<br><br>
 
-    <b>Windows:</b>
+<b>Windows:</b>
 
-    <pre><a href="https://www.python.org/downloads/">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
+<pre><a href="https://www.python.org/downloads/">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
 
-    <b>Linux:</b>
+<b>Linux:</b>
 
-    <pre>sudo apt install python3 -y</pre>
+<pre>sudo apt install python3 -y</pre>
+```
+
   </li>
 
   <br>
@@ -65,15 +72,18 @@
   <li>
     <b>Install the latest version of Git:</b>
 
-    <br><br>
+```
+<br><br>
 
-    <b>Windows:</b>
+<b>Windows:</b>
 
-    <pre><a href="https://git-scm.com/install/windows">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
+<pre><a href="https://git-scm.com/install/windows">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
 
-    <b>Linux:</b>
+<b>Linux:</b>
 
-    <pre>sudo apt install git -y</pre>
+<pre>sudo apt install git -y</pre>
+```
+
   </li>
 
   <br>
@@ -81,7 +91,10 @@
   <li>
     <b>Clone the repository:</b>
 
-    <pre>git clone https://github.com/tcqx/tcqx-toolsV2.git</pre>
+```
+<pre>git clone https://github.com/tcqx/tcqx-toolsV2.git</pre>
+```
+
   </li>
 
   <br>
@@ -89,7 +102,10 @@
   <li>
     <b>Enter the project folder:</b>
 
-    <pre>cd tcqx-toolsV2</pre>
+```
+<pre>cd tcqx-toolsV2</pre>
+```
+
   </li>
 
   <br>
@@ -97,15 +113,18 @@
   <li>
     <b>Launch the setup:</b>
 
-    <br><br>
+```
+<br><br>
 
-    <b>Windows:</b>
+<b>Windows:</b>
 
-    <pre>python setup.py</pre>
+<pre>python setup.py</pre>
 
-    <b>Linux:</b>
+<b>Linux:</b>
 
-    <pre>python3 setup.py</pre>
+<pre>python3 setup.py</pre>
+```
+
   </li>
 
   <br>
@@ -113,15 +132,18 @@
   <li>
     <b>Launch the tool:</b>
 
-    <br><br>
+```
+<br><br>
 
-    <b>Windows:</b>
+<b>Windows:</b>
 
-    <pre>python tcqxtools.py</pre>
+<pre>python tcqxtools.py</pre>
 
-    <b>Linux:</b>
+<b>Linux:</b>
 
-    <pre>python3 tcqxtools.py</pre>
+<pre>python3 tcqxtools.py</pre>
+```
+
   </li>
 
 </ol>
@@ -133,7 +155,10 @@
   <li>
     <b>Enter the project folder:</b>
 
-    <pre>cd tcqx-toolsV2</pre>
+```
+<pre>cd tcqx-toolsV2</pre>
+```
+
   </li>
 
   <br>
@@ -141,7 +166,10 @@
   <li>
     <b>Update the repository:</b>
 
-    <pre>git pull</pre>
+```
+<pre>git pull</pre>
+```
+
   </li>
 
 </ol>
@@ -150,10 +178,10 @@
 
 <pre>
 Tools:
+
   --help            / -h  : Shows all tools options.
   --version         / -v  : Displays the version and information of the tool.
   --settings-update / -su : Update the tools settings.
-
   --mode            / -m  : Mode: decorated / interface
   --status          / -s  : Status: enable / disable
 
@@ -187,7 +215,7 @@ Pentesting:
                                   &lt;cookie&gt;
 
 
-  --vulnerability-scanner / -vs  : Scan all vulnerabilities of a website.
+  --vulnerability-scanner / -vs  : Scan vulnerabilities of a website.
 
     --target              / -t   : Website target:
                                   &lt;URL&gt; / &lt;domain&gt; / &lt;IP:port&gt; / &lt;localhost:port&gt;
@@ -260,8 +288,7 @@ Pentesting:
     --target              / -t   : IP target:
                                   &lt;IP&gt;
 
-    --mode                / -m   : Ping mode:
-                                  ICMP / TCP
+    --mode                / -m   : Ping mode: ICMP / TCP
 
     --bytes               / -b   : Set the number of bytes for an ICMP ping:
                                   &lt;bytes&gt;
@@ -269,10 +296,10 @@ Pentesting:
     --port                / -p   : Set the port for a TCP ping:
                                   &lt;port&gt;
 
-    --interval            / -i   : Set the interval between each ping in seconds:
+    --interval            / -i   : Set the interval between each ping:
                                   &lt;interval&gt;
 
-    --socket-timeout      / -ST  : Set the maximum socket timeout in seconds:
+    --socket-timeout      / -ST  : Set the maximum socket timeout:
                                   &lt;timeout&gt;
 
     --socket-proxy        / -SP  : Set a socket proxy:
@@ -289,7 +316,7 @@ Pentesting:
 
     --output              / -o   : Creating additional JSON output.
 
-    --tcp-icmp-timeout    / -TIT : Set the maximum TCP/ICMP timeout in seconds:
+    --tcp-icmp-timeout    / -TIT : Set the maximum TCP/ICMP timeout:
                                   &lt;timeout&gt;
 
     --socket-proxy        / -SP  : Set a socket proxy:
@@ -318,21 +345,21 @@ OSINT:
     --http-proxy             / -HP  : Set an HTTP proxy for the API:
                                       &lt;proxy:port&gt;
 
-    --useragent              / -u   : Set a user-agent:
+    --useragent              / -u   : Set a user-agent for the API:
                                       random / &lt;useragent&gt;
 
 
   --username-tracker         / -ut  : Track a username across multiple platforms.
 
-    --target                 / -t   : The target username:
+    --target                 / -t   : Target username:
                                       &lt;username&gt;
 
     --output                 / -o   : Creating additional JSON output.
 
-    --http-timeout           / -HT  : Set the maximum HTTP timeout in seconds:
+    --http-timeout           / -HT  : Set the maximum HTTP timeout:
                                       &lt;timeout&gt;
 
-    --http-proxy             / -HP  : Set an HTTP proxy for the API:
+    --http-proxy             / -HP  : Set an HTTP proxy:
                                       &lt;proxy:port&gt;
 
     --useragent              / -u   : Set a user-agent:
@@ -346,10 +373,10 @@ OSINT:
 
     --output                 / -o   : Creating additional JSON output.
 
-    --http-timeout           / -HT  : Set the maximum HTTP timeout for the API:
+    --http-timeout           / -HT  : Set the maximum HTTP timeout:
                                       &lt;timeout&gt;
 
-    --http-proxy             / -HP  : Set an HTTP proxy for the API:
+    --http-proxy             / -HP  : Set an HTTP proxy:
                                       &lt;proxy:port&gt;
 
     --useragent              / -u   : Set a user-agent:
@@ -363,7 +390,7 @@ OSINT:
 
     --output                 / -o   : Creating additional JSON output.
 
-    --socket-timeout         / -ST  : Set the maximum socket timeout in seconds:
+    --socket-timeout         / -ST  : Set the maximum socket timeout:
                                       &lt;timeout&gt;
 
     --socket-proxy           / -SP  : Set a socket proxy:
@@ -377,10 +404,10 @@ OSINT:
 
     --output                 / -o   : Creating additional JSON output.
 
-    --http-timeout           / -HT  : Set the maximum HTTP timeout for the API:
+    --http-timeout           / -HT  : Set the maximum HTTP timeout:
                                       &lt;timeout&gt;
 
-    --http-proxy             / -HP  : Set an HTTP proxy for the API:
+    --http-proxy             / -HP  : Set an HTTP proxy:
                                       &lt;proxy:port&gt;
 
     --useragent              / -u   : Set a user-agent:
@@ -400,12 +427,12 @@ OSINT:
     --target                 / -t   : Username target:
                                       &lt;username&gt;
 
-    --sessionid              / -s   : Your Instagram ID session:
+    --sessionid              / -s   : Instagram session ID:
                                       &lt;sessionid&gt;
 
     --output                 / -o   : Creating additional JSON output.
 
-    --http-proxy             / -HP   : Set an HTTP proxy:
+    --http-proxy             / -HP  : Set an HTTP proxy:
                                       &lt;proxy:port&gt;
 
     --useragent              / -u   : Set a user-agent:
@@ -416,7 +443,7 @@ Utilities:
 
   --file-metadata-scanner / -fms : Scan all file metadata.
 
-    --path                / -p   : The file path:
+    --path                / -p   : File path:
                                   &lt;path&gt;
 
     --output              / -o   : Creating additional JSON output.
@@ -424,7 +451,7 @@ Utilities:
 
   --file-metadata-deleter / -fmd : Remove all file metadata.
 
-    --path                / -p   : The file path:
+    --path                / -p   : File path:
                                   &lt;path&gt;
 
 
@@ -433,13 +460,13 @@ Utilities:
     --target              / -t   : Website target:
                                   &lt;URL&gt; / &lt;domain&gt; / &lt;IP:port&gt; / &lt;localhost:port&gt;
 
-    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds:
+    --http-timeout        / -HT  : Set the maximum HTTP timeout:
                                   &lt;timeout&gt;
 
-    --http-proxy          / -HP  : Set an HTTP proxy:
+    --http-proxy           / -HP  : Set an HTTP proxy:
                                   &lt;proxy:port&gt;
 
-    --useragent           / -u   : Set a user-agent:
+    --useragent            / -u   : Set a user-agent:
                                   random / &lt;useragent&gt;
 
     --cookie              / -c   : Set a cookie:
