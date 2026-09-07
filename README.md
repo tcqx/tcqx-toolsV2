@@ -1,49 +1,111 @@
 <p align="center">
-  <img src="Images/tcqx-toolsV2-Banner.png" alt="tcqx-toolsV2-Banner" width="9999">
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    <img src="Images/tcqx-toolsV2-Banner.png" alt="tcqx-toolsV2-Banner" width="9999">
+  </a>
 </p>
 
 <h1 align="center">
-  <img src="Images/tcqx-toolsV2-Logo.png" alt="tcqx-toolsV2-Logo" width="27">
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    <img src="Images/tcqx-toolsV2-Logo.png" alt="tcqx-toolsV2-Logo" width="27">
+  </a>
   tcqx-toolsV2
 </h1>
 
 <p align="center">
-  tcqx-toolsV2 is a multifunction automation tool dedicated to pentesting,
+  <b>Multifunction Pentesting • OSINT • Utilities Toolkit</b>
+</p>
+
+<p align="center">
+  tcqx-toolsV2 is a multifunction tool dedicated to authorized pentesting,
   OSINT and utilities. The project is open source and designed to centralize
   multiple security, reconnaissance and information-gathering features into
   a single configurable platform.
 </p>
 
 <p align="center">
-  <b>Version: v1.0 Beta</b>
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    <img src="https://img.shields.io/badge/Version-v1.0%20Beta-red?style=for-the-badge" alt="Version">
+  </a>
+  <a href="https://github.com/tcqx/tcqx-toolsV2/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+  </a>
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    <img src="https://img.shields.io/github/stars/tcqx/tcqx-toolsV2?style=for-the-badge" alt="Stars">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    📦 Repository
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://github.com/tcqx">
+    👤 GitHub
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://guns.lol/tcqx">
+    🌐 Guns.lol
+  </a>
 </p>
 
 <h2>⚠️ Disclaimer:</h2>
 
 <p>
-  This version is intended exclusively for educational, authorized and lawful
-  use. Only use this software against systems, websites, accounts or data for
-  which you have explicit permission. Any malicious or unauthorized use is
-  strictly prohibited. The author is not responsible for any misuse of this
-  software.
+  This tool is intended exclusively for educational, authorized and lawful
+  purposes. Only use the features against systems, websites, accounts or data
+  for which you have explicit permission.
+</p>
+
+<p>
+  Any malicious, illegal or unauthorized use of this software is strictly
+  prohibited. The author is not responsible for damage, abuse or misuse
+  resulting from this project.
 </p>
 
 <h2>📝 Description:</h2>
 
 <ul>
   <li>⚙️ Compatible with Windows and Linux.</li>
-  <li>🧠 Legal, advanced and optimized security toolkit.</li>
-  <li>🔎 Tool oriented toward authorized pentesting and OSINT.</li>
-  <li>🛠️ Multiple scanning, reconnaissance and analysis utilities.</li>
-  <li>💻 Supports CLI mode and interactive usage.</li>
-  <li>📄 Supports optional JSON output for several features.</li>
-  <li>🔧 Centralized configuration and customizable tool settings.</li>
+  <li>🧠 Multifunction security and reconnaissance toolkit.</li>
+  <li>🔎 Designed for authorized pentesting and OSINT.</li>
+  <li>🛠️ Includes scanning, discovery and analysis utilities.</li>
+  <li>💻 Supports command-line usage.</li>
+  <li>📄 Supports optional JSON output for several tools.</li>
+  <li>⚡ Designed to centralize multiple utilities into one platform.</li>
 </ul>
 
 <h2>📸 Preview:</h2>
 
 <p align="center">
-  <img src="Images/tcqx-toolsV2.png" alt="tcqx-toolsV2" width="9999">
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    <img src="Images/tcqx-toolsV2.png" alt="tcqx-toolsV2 Preview" width="9999">
+  </a>
+</p>
+
+<h2>🔗 Quick Links:</h2>
+
+<p align="center">
+
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub Repository">
+  </a>
+
+  <a href="https://github.com/tcqx">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub Profile">
+  </a>
+
+  <a href="https://guns.lol/tcqx">
+    <img src="https://img.shields.io/badge/Guns.lol-Profile-red?style=for-the-badge" alt="Guns.lol">
+  </a>
+
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/Python-Download-blue?style=for-the-badge&logo=python" alt="Python Download">
+  </a>
+
+  <a href="https://git-scm.com/install/windows">
+    <img src="https://img.shields.io/badge/Git-Download-orange?style=for-the-badge&logo=git" alt="Git Download">
+  </a>
+
 </p>
 
 <h2>⚙️ Installation:</h2>
@@ -51,15 +113,19 @@
 <ol>
 
   <li>
-    <b>Install the latest version of Python (3.14):</b>
+    <b>Install Python 3.14:</b>
 
 ```
 <br><br>
 
 <b>Windows:</b>
 
-<pre><a href="https://www.python.org/downloads/">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
+<pre><a href="https://www.python.org/downloads/">Download Python</a>
+```
 
+Make sure the <b>"Add Python to PATH"</b> option is enabled during installation.</pre>
+
+```
 <b>Linux:</b>
 
 <pre>sudo apt install python3 -y</pre>
@@ -70,15 +136,19 @@
   <br>
 
   <li>
-    <b>Install the latest version of Git:</b>
+    <b>Install Git:</b>
 
 ```
 <br><br>
 
 <b>Windows:</b>
 
-<pre><a href="https://git-scm.com/install/windows">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
+<pre><a href="https://git-scm.com/install/windows">Download Git</a>
+```
 
+Make sure Git is added to PATH during installation.</pre>
+
+```
 <b>Linux:</b>
 
 <pre>sudo apt install git -y</pre>
@@ -130,7 +200,7 @@
   <br>
 
   <li>
-    <b>Launch the tool:</b>
+    <b>Launch tcqx-toolsV2:</b>
 
 ```
 <br><br>
@@ -164,7 +234,7 @@
   <br>
 
   <li>
-    <b>Update the repository:</b>
+    <b>Pull the latest version:</b>
 
 ```
 <pre>git pull</pre>
@@ -253,7 +323,7 @@ Pentesting:
 
     --output              / -o   : Creating additional JSON output.
 
-    --socket-timeout      / -ST  : Set the maximum socket timeout in seconds:
+    --socket-timeout      / -ST  : Set the maximum socket timeout:
                                   &lt;timeout&gt;
 
     --socket-proxy        / -SP  : Set a socket proxy:
@@ -460,7 +530,7 @@ Utilities:
     --target              / -t   : Website target:
                                   &lt;URL&gt; / &lt;domain&gt; / &lt;IP:port&gt; / &lt;localhost:port&gt;
 
-    --http-timeout        / -HT  : Set the maximum HTTP timeout:
+    --http-timeout        / -HT  : Set the maximum HTTP timeout in seconds:
                                   &lt;timeout&gt;
 
     --http-proxy           / -HP  : Set an HTTP proxy:
@@ -484,16 +554,74 @@ Notations:
 <h2>👨‍💻 Credits:</h2>
 
 <ul>
-  <li>Developed by: <b>tcqx</b></li>
-  <li>GitHub: <a href="https://github.com/tcqx">github.com/tcqx</a></li>
-  <li>GunsLol: <a href="https://guns.lol/tcqx">guns.lol/tcqx</a></li>
-  <li>License: <b>MIT License</b></li>
-  <li>Version: <b>v1.0 Beta</b></li>
+  <li>
+    Developed by:
+    <b>
+      <a href="https://github.com/tcqx">tcqx</a>
+    </b>
+  </li>
+
+  <li>
+    GitHub:
+    <a href="https://github.com/tcqx">github.com/tcqx</a>
+  </li>
+
+  <li>
+    Repository:
+    <a href="https://github.com/tcqx/tcqx-toolsV2">
+      github.com/tcqx/tcqx-toolsV2
+    </a>
+  </li>
+
+  <li>
+    GunsLol:
+    <a href="https://guns.lol/tcqx">
+      guns.lol/tcqx
+    </a>
+  </li>
+
+  <li>
+    License:
+    <a href="https://github.com/tcqx/tcqx-toolsV2/blob/main/LICENSE">
+      <b>MIT License</b>
+    </a>
+  </li>
+
+  <li>
+    Version:
+    <b>v1.0 Beta</b>
+  </li>
 </ul>
 
 <h2>📜 License:</h2>
 
 <p>
   This project is licensed under the
-  <b>MIT License</b>.
+  <a href="https://github.com/tcqx/tcqx-toolsV2/blob/main/LICENSE">
+    <b>MIT License</b>
+  </a>.
+</p>
+
+<h2>🔗 Project Links:</h2>
+
+<p align="center">
+  <a href="https://github.com/tcqx/tcqx-toolsV2">
+    📦 <b>Repository</b>
+  </a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/tcqx">
+    👤 <b>GitHub Profile</b>
+  </a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://guns.lol/tcqx">
+    🌐 <b>Guns.lol</b>
+  </a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://www.python.org/downloads/">
+    🐍 <b>Python</b>
+  </a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://git-scm.com/install/windows">
+    🔧 <b>Git</b>
+  </a>
 </p>
