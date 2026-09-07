@@ -1,85 +1,61 @@
-<p align="center">
-  <img src="Images/RedTiger-Banner.png" alt="RedTiger-Banner" width="9999">
-</p>
+⚙️ Installation:
 
-<h1 align="center">
-  <img src="Images/RedTiger-Logo.png" alt="RedTiger-Logo" width="27">
-  RedTiger-Tools (v2)
-</h1>
+    Installed the latest version of Python (3.14):
+    - Windows:
 
-<p align="center">
-  RedTiger-Tools is a multifunction automation tool dedicated to pentesting and OSINT. The project is open source and designed to be fully configurable according to user needs. It also includes a plugin system that allows users to extend or create new features, in order to centralize multiple tools into a single unified platform.
-</p>
+    Download Here (The "PATH" option must be enabled during installation)
 
-<h2>⚠️ Disclaimer:</h2>
-<p>
-  This version is intended exclusively for educational and lawful use. Any malicious use is strictly prohibited and disclaimed, in accordance with the provisions of the French Penal Code relating to attacks against automated data processing systems (Articles 323-1 to 323-7).
-</p>
+    - Linux:
 
-<h2>📝 Description:</h2>
+    sudo apt install python3 -y
 
-<ul>
-  <li>⚙️ Compatible with Windows and Linux.</li>
-  <li>🧠 Legal, advanced and optimized version.</li>
-  <li>🔎 Tool oriented toward pentesting and OSINT.</li>
-  <li>🧩 Plugin system allowing users to add or create new features in the <a href="Plugins">/Plugins</a> folder. (If you want to create a plugin and publish it on github put the tag "#redtiger-tools" in your repository, the example script can be found in: <a href="Plugins/Example.py">/Plugins/Example.py</a>)</li>
-  <li>📁 Centralized configuration via JSON files in the <a href="Data">/Data</a> folder.</li>
-  <li>💻 Supports CLI mode and interactive interface.</li>
-</ul>
+    Installed the latest version of Git:
+    - Windows:
 
-<h2>📸 Preview:</h2>
+    Download Here (The "PATH" option must be enabled during installation)
 
-<p align="center">
-  <img src="Images/RedTiger-Tools.png" alt="RedTiger-Tools" width="9999">
-</p>
+    - Linux:
 
-<h2>⚙️ Installation:</h2>
+    sudo apt install git -y
 
-<ol>
-  <li>Installed the latest version of Python (3.14):</li>
-  - Windows:
-  <pre><a href="https://www.python.org/downloads">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
-  - Linux:
-  <pre>sudo apt install python3 -y</pre>
+    Clone the repository:
 
-  <li>Installed the latest version of Git:</li>
-  - Windows:
-  <pre><a href="https://git-scm.com/install/windows">Download Here</a> (The "PATH" option must be enabled during installation)</pre>
-  - Linux:
-  <pre>sudo apt install git -y</pre>
-  
-  <li>Clone the repository:</li>
-  <pre>git clone https://github.com/loxy0devlp/RedTiger-Tools.git</pre>
+    git clone https://github.com/tcqx/tcqx-toolsV2.git
 
-  <li>Enter the project folder:</li>
-  <pre>cd RedTiger-Tools</pre>
+    Enter the project folder:
 
-  <li>Launched the setup:</li>
-  - Windows:
-  <pre>python setup.py</pre>
-  - Linux:
-  <pre>python3 setup.py</pre>
+    cd tcqx-toolsV2
 
-  <li>Launch the tool:</li>
-  - Windows:
-  <pre>python redtiger.py</pre>
-  - Linux:
-  <pre>python3 redtiger.py</pre>
-</ol>
+    Launched the setup:
+    - Windows:
 
-<h2>🔄 Update:</h2>
+    python setup.py
 
-<ol>
-  <li>Enter the project folder:</li>
-  <pre>cd RedTiger-Tools</pre>
+    - Linux:
 
-  <li>Update launch:</li>
-  <pre>git pull</pre>
-</ol>
+    python3 setup.py
 
-<h2>🚀 Features:</h2>
+    Launch the tool:
+    - Windows:
 
-```
+    python tcqxtools.py
+
+    - Linux:
+
+    python3 tcqxtools.py
+
+🔄 Update:
+
+    Enter the project folder:
+
+    cd tcqx-toolsV2
+
+    Update launch:
+
+    git pull
+
+🚀 Features:
+
 Tools:
   --help            / -h  : Shows all tools options.
   --version         / -v  : Displays the version and information of the tool.
@@ -195,14 +171,11 @@ Notations:
   [] : Optional
   <> : Value
   *  : Required
-```
 
-<h2>👨‍💻 Credits:</h2>
+👨‍💻 Credits:
 
-<ul>
-  <li>Developed by: <b>Loxy0devlp</b></li>
-  <li>GitHub: <a href="https://github.com/loxy0devlp">github.com/loxy0devlp</a></li>
-  <li>GunsLol: <a href="https://guns.lol/loxy0dev">guns.lol/loxy0dev</a></li>
-  <li>License: <b>MIT License</b></li>
-  <li>Version: <b>v1.0 Beta</b></li>
-</ul>
+    Developed by: tcqx
+    GitHub: https://github.com/tcqx
+    GunsLol: https://guns.lol/tcqx
+    License: MIT License
+    Version: v1.0 Beta
